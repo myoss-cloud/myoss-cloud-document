@@ -1,0 +1,30 @@
+{
+  "styles": {
+    "website": "styles/website.css"
+  },
+  "plugins": [
+    "book-summary-scroll-position-saver",
+    "github",
+    "prism",
+    "prism-themes",
+    "-sharing",
+    "-highlight",
+    "copy-code-button",
+    "anchor-navigation-ex",
+    "splitter",
+    "fancybox"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true
+    },
+    "prism": {
+      "css": [
+        "prism-themes/themes/prism-atom-dark.css"
+      ]
+    },
+    "github": {
+      "url": "https://github.com/myoss-cloud"
+    }
+  }
+}
