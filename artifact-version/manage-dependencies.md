@@ -8,7 +8,7 @@
 
 ```xml
     <properties>
-        <myoss-cloud-dependencies.version>2.1.4.RELEASE</myoss-cloud-dependencies.version>
+        <myoss-cloud-dependencies.version>2.1.5.RELEASE</myoss-cloud-dependencies.version>
     </properties>
 ```
 
@@ -39,3 +39,9 @@
 ```
 
 ## 版本更新说明
+
+**2.1.5.RELEASE**
+
+- 新增 "动态数据源路由" 组件: `myoss-datasource-routing`
+- 升级 `myoss-mybatis to 2.1.2.RELEASE`
+- 升级 `java-code-style to 2.1.1.RELEASE`, 去掉 `spring` 三元表达式的代码校验
