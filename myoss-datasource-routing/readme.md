@@ -1,7 +1,7 @@
 # About
 
 - `myoss-datasource-routing` 组件用于单一项目中需要支持多套数据源，只需要做简单的配置，即可支持在同一方法调用堆栈中，非常方便的切换不同的数据源。
-- [official site](https://github.com/myoss-cloud/myoss-datasource-routing)
+- [GitHub Site](https://github.com/myoss-cloud/myoss-datasource-routing)
 
 # Features
 
@@ -63,7 +63,8 @@
 ```yaml
 myoss-cloud:
   datasource-routing:
-    group-data-source-load-balancer: app.myoss.cloud.datasource.routing.jdbc.loadbalancer.impl.RandomDataSourceLoadBalanced
+    group-data-source-config:
+      load-balancer: app.myoss.cloud.datasource.routing.jdbc.loadbalancer.impl.RandomDataSourceLoadBalanced
     databases:
       - name: master
         describe: 我是主数据源，我只是描述信息，无其它作用

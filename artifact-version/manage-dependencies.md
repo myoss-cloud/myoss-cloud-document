@@ -1,6 +1,6 @@
 # About
 
-- [official site](https://github.com/myoss-cloud/spring-boot-build)
+- [GitHub Site](https://github.com/myoss-cloud/spring-boot-build)
 
 # Usage
 
